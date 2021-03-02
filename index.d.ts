@@ -1,4 +1,4 @@
 
-declare namespace Morasun {
+export namespace Morasun {
 
 }
