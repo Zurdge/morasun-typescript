@@ -1,5 +1,5 @@
 {
-  "name": "morasun-typescript",
+  "name": "@types/morasun",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
