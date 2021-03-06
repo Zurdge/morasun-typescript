@@ -1,5 +1,5 @@
 declare namespace DB {
-  namespace checkout {
+  export namespace checkout {
     type code = {
       code_id:number
       code:string
