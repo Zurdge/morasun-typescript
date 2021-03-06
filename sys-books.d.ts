@@ -1,5 +1,5 @@
 declare namespace DB {
-  export type book = {
+  type book = {
     book_id:number
     book_initials:string
     book_label:string

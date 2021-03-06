@@ -1,4 +1,4 @@
-declare namespace DB {
+export declare namespace DB {
   export namespace checkout {
     type product = {
       product_id:number
