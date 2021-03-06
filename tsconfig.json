@@ -17,13 +17,9 @@
         "forceConsistentCasingInFileNames": true
     },
     "files": [
-        "index.d.ts",
-        "database-sys-books.d.ts",
-        "database-sys-checkout-products.d.ts",
-        "database-sys-coursework-entries.d.ts",
-        "database-sys-coursework-feedback.d.ts",
-        "database-sys-coursework-media.d.ts",
-        "database-sys-lessons.d.ts",
-        "database-sys-users.d.ts",
+      "index.d.ts",
+      "sys-books.d.ts",
+      "sys-checkout-codes.d.ts",
+      "sys-checkout-products.d.ts"        
     ]
 }
