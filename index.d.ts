@@ -1,4 +1,11 @@
 declare module DB {
+  type book = {
+    book_id:number
+    book_initials:string
+    book_label:string
+    book_description:string
+    book_language:string
+  }
   namespace checkout {
     type code = {
       code_id:number
