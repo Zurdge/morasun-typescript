@@ -62,6 +62,8 @@ declare module DB {
     lesson_language:string
     grammar_count:number
     vocab_count:number
+    url_to_vocabulary:string
+    url_to_grammar:string
   }
   namespace msg {
     type message = {
