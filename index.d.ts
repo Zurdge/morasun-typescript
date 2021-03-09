@@ -85,6 +85,7 @@ declare module DB {
       owner:string
       lesson_id:number
       status:'none' | 'pending-teacher-responce' | 'pending-student-responce'
+      last_updated:string
     }
   }
 
