@@ -83,7 +83,6 @@ declare module DB {
       thread_id:number
       created_on:string
       owner:string
-      book_id:number
       lesson_id:number
       status:'none' | 'pending-teacher-responce' | 'pending-student-responce'
     }
@@ -106,6 +105,7 @@ declare module DB {
     account_level:'teacher' | 'admin',
     sub:string
     lastupdate:string
+    profile_picture:string
     contact_name:string
     firstname:string
     lastname:string
