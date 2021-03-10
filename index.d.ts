@@ -72,6 +72,7 @@ declare module DB {
   }
   namespace lessons {
     type booked = {
+      booking_id:number
       lesson_id:number
       year  :number
       week  :number
@@ -99,7 +100,7 @@ declare module DB {
       lesson_id:number
       class_size:number
       lesson_method:"zoom"
-      
+
       teacher_sub:string
     }
   }
