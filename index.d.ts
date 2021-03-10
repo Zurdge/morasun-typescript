@@ -54,7 +54,7 @@ declare module DB {
     lang:string
     label:string
   }
-  type lessons = {
+  type lesson = {
     lesson_id:number
     book_id:number
     lesson_label:string
@@ -70,20 +70,25 @@ declare module DB {
     study_material_printing:string
     study_material_all:string
   }
-  type lessons_scheduled = {
-    schedule_id:number
-    date:string
-    student_sub:string
-    teacher_sub:string
-    book_id:number
-    year:number
-    week:number
-    day:number
-    hour:number
-    lesson_method:"unknown" | "skype" | "zoom"
-    lesson_status:"not_started" |"completed" |"disconnected" |"no_user"
+  namespace lessons {
+    type booked = {
+      lesson_id:number
+      year  :number
+      week  :number
+      day   :number
+      hour  :number
+      date  :string
 
+      type          : "1_on_1" | "group"
+      lesson_method : "skype" | "zoom"
+      lesson_status : "not_started" | "completed" | "issue" | "cancelled"
+
+      student_sub   : string
+      teachers_sub  : string
+
+    }
   }
+
   namespace msg {
     type message = {
       message_id:number
