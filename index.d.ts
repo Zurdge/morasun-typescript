@@ -70,6 +70,20 @@ declare module DB {
     study_material_printing:string
     study_material_all:string
   }
+  type lessons_scheduled = {
+    schedule_id:number
+    date:string
+    student_sub:string
+    teacher_sub:string
+    book_id:number
+    year:number
+    week:number
+    day:number
+    hour:number
+    lesson_method:"unknown" | "skype" | "zoom"
+    lesson_status:"not_started" |"completed" |"disconnected" |"no_user"
+
+  }
   namespace msg {
     type message = {
       message_id:number
