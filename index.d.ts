@@ -87,6 +87,21 @@ declare module DB {
       teachers_sub  : string
 
     }
+
+    type group_schedule = {
+      block_id:number
+
+      label:string
+      description:string
+
+      day:number
+      hour:number
+      lesson_id:number
+      class_size:number
+      lesson_method:"zoom"
+      
+      teacher_sub:string
+    }
   }
 
   namespace msg {
