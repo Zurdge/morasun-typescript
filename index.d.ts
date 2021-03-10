@@ -85,7 +85,7 @@ declare module DB {
       lesson_status : "not_started" | "completed" | "issue" | "cancelled"
 
       student_sub   : string
-      teachers_sub  : string
+      teacher_sub  : string
 
     }
 
