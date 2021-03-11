@@ -74,6 +74,7 @@ declare module DB {
     type booked = {
       booking_id:number
       lesson_id:number
+      block_id:number
       year  :number
       week  :number
       day   :number
