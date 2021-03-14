@@ -50,6 +50,20 @@ declare module DB {
       created_on:string
     }
   }
+  namespace knowledge_test {
+    type option = {
+      id:number
+      question_id:number
+      text:string
+    }
+    type question = {
+      question_id:number
+      answer:number
+      question_type:"gap-fill"|"audio-match",
+      sentence?:string
+      audio_file?:string
+    }
+  }
   type languages = {
     lang:string
     label:string
