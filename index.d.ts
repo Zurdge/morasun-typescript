@@ -63,7 +63,7 @@ declare module DB {
       question_id:string
       text:string
       lesson_id:number
-
+      order:number
     }
     type question = {
       question_id:string
@@ -74,6 +74,7 @@ declare module DB {
 
       lesson_id:number
       feedback_id:number
+      order:number
     }
   }
   type languages = {
