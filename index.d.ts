@@ -51,10 +51,19 @@ declare module DB {
     }
   }
   namespace knowledge_test {
+    type feedback = {
+      feedback_id:number
+      page:number
+      section:string
+      message:string
+      lesson_id:number
+    }
     type option = {
       id:number
       question_id:number
       text:string
+      lesson_id:number
+
     }
     type question = {
       question_id:number
@@ -63,10 +72,8 @@ declare module DB {
       sentence?:string
       audio_file?:string
 
-      book_id:number
-
-      page_ref:number
-      question_ref:string
+      lesson_id:number
+      feedback_id:number
     }
   }
   type languages = {
