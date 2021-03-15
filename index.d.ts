@@ -63,18 +63,16 @@ declare module DB {
       question_id:string
       text:string
       lesson_id:number
-      order:number
     }
     type question = {
       question_id:string
-      answer:number
+      answer:string
       question_type:"gap-fill"|"audio-match",
       sentence?:string
       audio_file?:string
 
       lesson_id:number
       feedback_id:number
-      order:number
     }
   }
   type languages = {
