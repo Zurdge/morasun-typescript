@@ -62,6 +62,11 @@ declare module DB {
       question_type:"gap-fill"|"audio-match",
       sentence?:string
       audio_file?:string
+
+      book_id:number
+
+      page_ref:number
+      question_ref:string
     }
   }
   type languages = {
