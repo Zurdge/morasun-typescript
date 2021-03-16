@@ -76,6 +76,7 @@ declare module DB {
     }
     type statistics = {
       id:number
+      sub:string
       lesson_id:number
       question_id:string
       was_corrent:1|0
