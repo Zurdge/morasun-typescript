@@ -74,6 +74,14 @@ declare module DB {
       lesson_id:number
       feedback_id:number
     }
+    type statistics = {
+      id:number
+      lesson_id:number
+      question_id:string
+      was_corrent:1|0
+      answered:string
+      created_on:string
+    }
   }
   type languages = {
     lang:string
