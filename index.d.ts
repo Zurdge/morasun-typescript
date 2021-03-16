@@ -72,7 +72,7 @@ declare module DB {
       audio_file?:string
 
       lesson_id:number
-      feedback_id:number
+      feedback_id:string
     }
     type statistics = {
       id:number
