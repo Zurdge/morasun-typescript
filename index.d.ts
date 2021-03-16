@@ -79,7 +79,7 @@ declare module DB {
       sub:string
       lesson_id:number
       question_id:string
-      was_corrent:1|0
+      was_correct:1|0
       answered:string
       created_on:string
     }
