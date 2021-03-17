@@ -122,6 +122,8 @@ declare module DB {
       student_sub   : string
       teacher_sub  : string
       teachers_message : string
+
+      cancelled:0|1
     }
 
     type group_schedule = {
