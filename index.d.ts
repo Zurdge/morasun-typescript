@@ -103,6 +103,8 @@ declare module DB {
     study_material_flashcards:string
     study_material_printing:string
     study_material_all:string
+
+    order:number
   }
   namespace lessons {
     type booked = {
@@ -118,6 +120,7 @@ declare module DB {
       type          : "1_on_1" | "group"
       lesson_method : "skype" | "zoom"
       lesson_status : "not_started" | "completed" | "issue" | "cancelled"
+      lesson_link   : string
 
       student_sub   : string
       teacher_sub  : string
