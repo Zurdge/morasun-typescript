@@ -67,7 +67,7 @@ declare module DB {
     type question = {
       question_id:string
       answer:string
-      question_type:"gap-fill"|"audio-match",
+      question_type:"word-match"|"gap-fill"|"audio-match",
       sentence?:string
       audio_file?:string
 
@@ -122,8 +122,6 @@ declare module DB {
       student_sub   : string
       teacher_sub  : string
       teachers_message : string
-
-      cancelled:0|1
     }
 
     type group_schedule = {
@@ -156,7 +154,7 @@ declare module DB {
       created_on:string
       owner:string
       lesson_id:number
-      status:'none' | 'pending-teacher-responce' | 'pending-student-responce'
+      status:'none' | 'pending-teacher-responce' | 'pending-teacher-marking' | 'pending-student-responce'
       last_updated:string
     }
   }
