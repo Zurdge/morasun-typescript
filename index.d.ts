@@ -195,6 +195,12 @@ declare module DB {
     zoom_id:string
   }
 
+  type teachers_scheduled_absences = {
+    id:number
+    date:string
+    teacher_sub:string
+  }
+
   type teachers_schedule = {
     block_id:number
     sub:string
