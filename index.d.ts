@@ -218,7 +218,7 @@ declare module DB {
     lastupdate:string
     telephone:string
     preferred_method_of_contact:string
-    users_method_of_contact_id:string
+    skype_id:string
     current_language:"JP",
     current_book:number
     push_token:string
