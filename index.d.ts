@@ -117,7 +117,7 @@ declare module DB {
       hour  :number
       date  :string
 
-      type          : "1_on_1" | "group"
+      type          : "1-on-1" | "group"
       lesson_method : "skype" | "zoom"
       lesson_status : "not_started" | "completed" | "issue" | "cancelled"
       lesson_link   : string
