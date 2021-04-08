@@ -118,7 +118,6 @@ declare module DB {
       date  :string
 
       type          : "1-on-1" | "group"
-      lesson_method : "skype" | "zoom"
       lesson_status : "not_started" | "completed" | "issue" | "cancelled"
       lesson_link   : string
 
@@ -137,7 +136,6 @@ declare module DB {
       hour:number
       lesson_id:number
       class_size:number
-      lesson_method:"zoom"
 
       teacher_sub:string
     }
