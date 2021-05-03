@@ -226,4 +226,13 @@ declare module DB {
     push_concent_system:0|1
     stripe_customer_id:string
   }
+
+
+  namespace multimedia {
+    type video = {
+      id:number
+      url:string
+      label:string
+    }
+  }
 }
