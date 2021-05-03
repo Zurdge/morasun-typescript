@@ -159,6 +159,19 @@ declare module DB {
       coursework_status:'none' | 'marked' | 'requires-marking'
       last_updated:string
     }
+
+    namespace coursework {
+      type feedback = {
+        id      : number
+        type    : "section-title" | "section-text" | "link"
+        content : string 
+        link    : string
+        updated_on  : string
+        lesson_id   : number
+        student_sub : string
+        teacher_sub : string
+      }
+    }
   }
 
   type order = {
