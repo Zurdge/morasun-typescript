@@ -164,12 +164,14 @@ declare module DB {
       type feedback = {
         id      : number
         type    : "section-title" | "section-text" | "link"
-        content : string 
+        content : string
         link    : string
         updated_on  : string
         lesson_id   : number
         student_sub : string
         teacher_sub : string
+        order   : number
+        theme   : string
       }
     }
   }
