@@ -163,6 +163,7 @@ declare module DB {
     namespace coursework {
       type feedback = {
         id      : number
+        thead_id: number
         type    : "section-title" | "section-text" | "link"
         content : string
         link    : string
