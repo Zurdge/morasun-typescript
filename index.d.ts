@@ -156,7 +156,7 @@ declare module DB {
       owner:string
       lesson_id:number
       status:'none' | 'pending-teacher-responce' | 'pending-teacher-marking' | 'pending-student-responce'
-      coursework_status:'none' | 'marked' | 'requires-marking'
+      coursework_status:'none' | 'marked' | 'requires-marking' | 'seen'
       last_updated:string
     }
 
