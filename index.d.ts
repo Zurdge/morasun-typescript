@@ -139,6 +139,17 @@ declare module DB {
 
       teacher_sub:string
     }
+
+    type lesson_log = {
+      id:number
+      student_sub:string
+      lesson_id:number    
+      listening:number
+      speaking:number
+      reading:number
+      lesson_chapter_complete:boolean
+      teachers_comments:string
+    }
   }
 
   namespace msg {
