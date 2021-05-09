@@ -143,7 +143,8 @@ declare module DB {
     type lesson_log = {
       id:number
       student_sub:string
-      lesson_id:number    
+      date:string
+      lesson_id:number
       listening:number
       speaking:number
       reading:number
