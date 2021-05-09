@@ -119,6 +119,7 @@ declare module DB {
 
       type          : "1-on-1" | "group"
       lesson_status : "not_started" | "completed" | "issue" | "cancelled"
+      log_status    : "none" | "draft" | "complete"
       lesson_link   : string
 
       student_sub   : string
