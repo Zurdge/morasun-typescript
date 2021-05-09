@@ -145,9 +145,9 @@ declare module DB {
       student_sub:string
       date:string
       lesson_id:number
-      listening:number
-      speaking:number
-      reading:number
+      listening:string
+      speaking:string
+      reading:string
       lesson_chapter_complete:boolean
       teachers_comments:string
     }
