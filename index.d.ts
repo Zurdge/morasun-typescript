@@ -145,7 +145,8 @@ declare module DB {
       id:number
       student_sub:string
       teacher_sub:string
-      date:string
+      lesson_date:string
+      created_on:string
       lesson_id:number
       listening:string
       speaking:string
