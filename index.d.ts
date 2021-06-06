@@ -160,6 +160,8 @@ declare module DB {
       message_id:number
       thread_id:number
       message:string
+      link_label?:string
+      link_url?:string
       owner:string
       created_on:string
       removed:"y"|"n"
