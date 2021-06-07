@@ -97,14 +97,6 @@ declare module DB {
     lesson_language:string
     grammar_count:number
     vocab_count:number
-    url_to_vocabulary:string
-    url_to_grammar:string
-
-    study_material_listening:string
-    study_material_flashcards:string
-    study_material_printing:string
-    study_material_all:string
-
     order:number
   }
   namespace lessons {
