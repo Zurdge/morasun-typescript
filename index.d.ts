@@ -91,6 +91,7 @@ declare module DB {
   type lesson = {
     lesson_id:number
     book_id:number
+    lesson_chapter:string
     lesson_label:string
     lesson_description:string
     lesson_language:string
