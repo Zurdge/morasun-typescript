@@ -97,6 +97,7 @@ declare module DB {
     lesson_language:string
     grammar_count:number
     vocab_count:number
+    self_study_duration:string
     order:number
   }
   namespace lessons {
