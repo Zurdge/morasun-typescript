@@ -1,4 +1,17 @@
 declare module DB {
+  namespace app {
+    type header = {
+      id:number
+      action :string
+      icon :string
+      color :string
+      title :string
+      subtitle :string
+      link_url :string
+      video_url :string
+      hidden:number
+    }
+  }
   type book = {
     book_id:number
     book_initials:string
