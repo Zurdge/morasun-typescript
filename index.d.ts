@@ -167,6 +167,7 @@ declare module DB {
       lesson_id:number
       title:string
       description:string
+      category:string
       icon:string
       action:string
 
