@@ -161,6 +161,17 @@ declare module DB {
       lesson_chapter_complete:boolean
       teachers_comments:string
     }
+
+    type material = {
+      id:number
+      lesson_id:number
+      title:string
+      description:string
+      icon:string
+      action:string
+
+      link_url:string
+    }
   }
 
   namespace msg {
