@@ -83,6 +83,7 @@ declare module DB {
       question_type:"word-match"|"gap-fill"|"audio-match",
       sentence?:string
       audio_file?:string
+      image_file?:string
 
       lesson_id:number
       feedback_id:string
@@ -268,8 +269,6 @@ declare module DB {
     email:string
     lastupdate:string
     telephone:string
-    preferred_method_of_contact:string
-    skype_id:string
     current_language:"JP",
     current_book:number
     push_token:string
