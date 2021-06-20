@@ -80,7 +80,7 @@ declare module DB {
     type question = {
       question_id:string
       answer:string
-      question_type:"word-match"|"gap-fill"|"audio-match",
+      question_type:"word-match"|"gap-fill"|"audio-match", "image-match",
       sentence?:string
       audio_file?:string
       image_file?:string
