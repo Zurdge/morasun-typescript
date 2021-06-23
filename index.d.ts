@@ -65,28 +65,28 @@ declare module DB {
   }
   namespace knowledge_test {
     type feedback = {
-      feedback_id:string
+      feedback_id:number
       page:number
       section:string
       message:string
       lesson_id:number
     }
     type option = {
-      option_id:string
-      question_id:string
+      option_id:number
+      question_id:number
       text:string
       lesson_id:number
     }
     type question = {
-      question_id:string
-      answer:string
+      question_id:number
+      answer:number
       question_type:"word-match"|"gap-fill"|"audio-match"|"image-match",
       sentence?:string
       audio_file?:string
       image_file?:string
 
       lesson_id:number
-      feedback_id:string
+      feedback_id:number
     }
     type statistics = {
       id:number
