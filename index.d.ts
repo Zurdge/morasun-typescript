@@ -88,6 +88,7 @@ declare module DB {
       feedback_id:number
 
       visible:number
+      group:string
     }
     type statistics = {
       id:number
