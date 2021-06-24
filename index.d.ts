@@ -69,6 +69,7 @@ declare module DB {
       section:string
       message:string
       lesson_id:number
+      url_link:string
     }
     type option = {
       option_id:number
