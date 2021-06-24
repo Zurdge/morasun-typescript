@@ -66,7 +66,6 @@ declare module DB {
   namespace knowledge_test {
     type feedback = {
       feedback_id:number
-      page:number
       section:string
       message:string
       lesson_id:number
@@ -87,6 +86,8 @@ declare module DB {
 
       lesson_id:number
       feedback_id:number
+
+      visible:number
     }
     type statistics = {
       id:number
