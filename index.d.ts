@@ -1,4 +1,4 @@
-declare module DB {
+rdeclare module DB {
   namespace app {
     type header = {
       id:number
@@ -45,13 +45,14 @@ declare module DB {
       title:string
       description:string
       student_sub:string
+      status:"requires-marking" | "marked" | "archived"
     }
     type media = {
       id:number
       key:string
       entry_id:number
       student_sub:string
-      order:number      
+      order:number
     }
   }
   namespace knowledge_test {
