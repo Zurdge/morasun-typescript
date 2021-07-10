@@ -45,7 +45,7 @@ declare module DB {
       title:string
       description:string
       student_sub:string
-      status:"requires-marking" | "marked" | "archived"
+      status:"requires-marking" | "marked" | "seen" | "archived"
       created_on:string
     }
     type media = {
