@@ -39,28 +39,19 @@ declare module DB {
 
   namespace coursework {
     type entry = {
-      coursework_id:number
-      status:string
-      sub:string
+      id:number
       lesson_id:number
-      updated_on:string
-    }
-    type feedback = {
-      feeback_id:number
-      coursework_id:number
-      user_media_id:number
+      book_id:number
       title:string
-      message:string
-      external_references:string
+      description:string
+      student_sub:string
     }
     type media = {
-      media_id:number
-      coursework_id:number
-      sub:string
-      order:number
-      s3_key:string
-      category:string
-      created_on:string
+      id:number
+      key:string
+      entry_id:number
+      student_sub:string
+      order:number      
     }
   }
   namespace knowledge_test {
