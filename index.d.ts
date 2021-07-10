@@ -55,6 +55,19 @@ declare module DB {
       student_sub:string
       order:number
     }
+    type feedback = {
+      id      : number
+      entry_id: number
+      type    : "section-title" | "section-text" | "link"
+      content : string
+      link    : string
+      updated_on  : string
+      lesson_id   : number
+      student_sub : string
+      teacher_sub : string
+      order   : number
+      theme   : string
+    }
   }
   namespace knowledge_test {
     type feedback = {
