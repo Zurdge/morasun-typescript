@@ -62,7 +62,6 @@ declare module DB {
       content : string
       link    : string
       updated_on  : string
-      lesson_id   : number
       student_sub : string
       teacher_sub : string
       order   : number
