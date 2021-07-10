@@ -1,4 +1,4 @@
-rdeclare module DB {
+declare module DB {
   namespace app {
     type header = {
       id:number
