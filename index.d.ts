@@ -46,6 +46,7 @@ rdeclare module DB {
       description:string
       student_sub:string
       status:"requires-marking" | "marked" | "archived"
+      created_on:string
     }
     type media = {
       id:number
