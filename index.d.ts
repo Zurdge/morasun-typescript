@@ -128,10 +128,6 @@ declare module DB {
       booking_id:number
       lesson_id:number
       block_id:number
-      year  :number
-      week  :number
-      day   :number
-      hour  :number
       date  :string
 
       type          : "1-on-1" | "group"
