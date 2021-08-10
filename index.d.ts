@@ -305,4 +305,19 @@ declare module DB {
     lesson_id: number
     date:string
   }
+
+  namespace issues {
+    type category = {
+      id?:number
+      category:string
+      parent_category?:string
+    }
+    type submitted = {
+      id?:number
+      category_id?:number
+      student_sub?:string
+      created_on?:string
+      message?:string
+    }
+  }
 }
