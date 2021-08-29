@@ -278,7 +278,7 @@ declare module DB {
     current_language: "JP",
     current_book: number
     push_token: string
-    subscribed_to_newsletter:boolean
+    subscribed_to_newsletter: 0 | 1
     stripe_customer_id: string
   }
 
