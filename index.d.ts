@@ -278,9 +278,7 @@ declare module DB {
     current_language: "JP",
     current_book: number
     push_token: string
-    push_consent_message: 0 | 1
-    push_consent_promo: 0 | 1
-    push_concent_system: 0 | 1
+    subscribed_to_newsletter:boolean
     stripe_customer_id: string
   }
 
