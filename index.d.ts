@@ -131,6 +131,7 @@ declare module DB {
       date: string
 
       type: "1-on-1" | "group"
+      booking_status: "booking-requested" | "teacher-confirmed" | "payment-accepted" 
       lesson_status: "not_started" | "started" | "completed" | "issue" | "cancelled"
       log_status: "none" | "draft" | "complete"
       lesson_link: string
