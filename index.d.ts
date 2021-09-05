@@ -1,4 +1,37 @@
 declare module DB {
+  namespace core {
+    namespace event {
+      type arg = {
+        id:number
+        func_id:number
+        value:string
+        key:string
+        order:number
+      }
+      type func = {
+        id:number
+        target_event:string
+        func:string
+        event_group:string
+      }
+      type type = {
+        id:number
+        value:string
+      }
+    }
+    namespace link {
+      type arg = {
+        id:number
+        link_id:number
+        value:string
+        key:string
+      }
+      type id = {
+        id:number
+        link:string
+      }
+    }
+  }
   namespace app {
     type header = {
       id: number
@@ -131,7 +164,7 @@ declare module DB {
       date: string
 
       type: "1-on-1" | "group"
-      booking_status: "booking-requested" | "teacher-confirmed" | "payment-accepted" 
+      booking_status: "none" | "booking-requested" | "teacher-confirmed" | "payment-accepted"
       lesson_status: "not_started" | "started" | "completed" | "issue" | "cancelled"
       log_status: "none" | "draft" | "complete"
       lesson_link: string
